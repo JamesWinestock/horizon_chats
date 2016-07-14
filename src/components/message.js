@@ -10,7 +10,7 @@ class Message extends Component {
   render() {
     return (
 
-      <div>
+      <div className="center">
       {this.props.msg.author}: {this.props.msg.text}
       </div>
     )
